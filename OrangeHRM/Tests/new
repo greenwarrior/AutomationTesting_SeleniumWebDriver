@@ -1,0 +1,9 @@
+"""
+        driver = self.driver
+        driver.get(TestData.login_url)
+        login = LoginPage(driver)
+        login.enter_username(TestData.admin_username)
+        login.enter_password(TestData.admin_password)
+        login.click_login()
+        time.sleep(1)
+        """
